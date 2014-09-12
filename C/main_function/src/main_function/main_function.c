@@ -1,9 +1,13 @@
-#include <stdio.h>
+/* Include header files */
+#include <stdio.h> /* Standard I/O */
 
-int main(void){
+/* Definition of main function */
+int main(void){ /* Entry point of the program */
 
-  printf("main_function\n");
+  /* First Processing */
+  printf("main_function\n"); /* Print "main_function" in printf. */
 
-  return 0;
+  /* End of program */
+  return 0; /* Return 0 to OS, and Exit from the program. */
 
 }
