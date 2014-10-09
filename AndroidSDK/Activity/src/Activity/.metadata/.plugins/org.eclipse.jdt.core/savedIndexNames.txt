@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+C:\Project\Local\METALFORTRESS\AndroidSDK\Sample\Activity\Src\Eclipse ADT 20140702 AndroidAppPrj Empty Activity Java Src\Activity\Activity\.metadata\.plugins\org.eclipse.jdt.core
-1112478377.index
-1284074322.index
-2934234222.index
