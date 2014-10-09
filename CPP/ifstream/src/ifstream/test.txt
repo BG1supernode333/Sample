@@ -1,8 +1,0 @@
-ABCDE
- hoge foo bar
-
-XYZ
-
-12345
-
-END
