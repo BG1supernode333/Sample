@@ -1,0 +1,8 @@
+ABCDE
+
+hoge foo bar
+XYZ
+
+END
+
+bye bye
