@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_overload", "function_overload\function_overload.vcproj", "{6473E9B8-303B-4DE8-985D-22BDE2EF0463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6473E9B8-303B-4DE8-985D-22BDE2EF0463}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6473E9B8-303B-4DE8-985D-22BDE2EF0463}.Debug|Win32.Build.0 = Debug|Win32
+		{6473E9B8-303B-4DE8-985D-22BDE2EF0463}.Release|Win32.ActiveCfg = Release|Win32
+		{6473E9B8-303B-4DE8-985D-22BDE2EF0463}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
