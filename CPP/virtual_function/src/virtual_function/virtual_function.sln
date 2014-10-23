@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_function", "virtual_function\virtual_function.vcproj", "{D94B2754-23B9-4165-971E-F0E23B93BEEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D94B2754-23B9-4165-971E-F0E23B93BEEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D94B2754-23B9-4165-971E-F0E23B93BEEF}.Debug|Win32.Build.0 = Debug|Win32
+		{D94B2754-23B9-4165-971E-F0E23B93BEEF}.Release|Win32.ActiveCfg = Release|Win32
+		{D94B2754-23B9-4165-971E-F0E23B93BEEF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
