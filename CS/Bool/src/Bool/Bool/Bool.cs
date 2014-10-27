@@ -1,4 +1,4 @@
-class MainMethod
+class Bool
 {
     static void Main()
     {
