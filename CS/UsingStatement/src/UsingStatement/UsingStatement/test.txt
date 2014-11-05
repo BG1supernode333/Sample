@@ -1,0 +1,9 @@
+ABCDE
+
+hoge
+foo
+bar
+
+XYZ
+
+END
