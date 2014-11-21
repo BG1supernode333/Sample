@@ -19,6 +19,8 @@ namespace ItemsControl_
         public MainPage()
         {
             InitializeComponent();
+            itemctrl1.Items.Add("test");
+            itemctrl1.Items.Add("test2");
         }
     }
 }

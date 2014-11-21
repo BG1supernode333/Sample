@@ -12,20 +12,6 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="True">
-    <phone:PhoneApplicationPage.Resources>
-        <ControlTemplate x:Key="ItemCtrlTmpl1" TargetType="ItemsControl">
-            <Grid>
-                <Border BorderThickness="5">
-                    <Border.BorderBrush>
-                        <SolidColorBrush Color="SkyBlue" />
-                    </Border.BorderBrush>
-                </Border>
-                <TextBlock>
-                    ItemsControl_ ControlTemplate
-                </TextBlock>
-            </Grid>
-        </ControlTemplate>
-    </phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot は、すべてのページ コンテンツが配置されるルート グリッドです-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -42,7 +28,22 @@
 
         <!--ContentPanel - 追加コンテンツをここに入力します-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <ItemsControl Template="{StaticResource ItemCtrlTmpl1}" Width="300" Height="500" x:Name="itemctrl1" />
+            <ItemsControl Width="300" Height="500" x:Name="itemctrl1">
+                <ItemsControl.Template>
+                    <ControlTemplate TargetType="ItemsControl">
+                        <Grid>
+                            <Border BorderThickness="5">
+                                <Border.BorderBrush>
+                                    <SolidColorBrush Color="SkyBlue" />
+                                </Border.BorderBrush>
+                            </Border>
+                            <TextBlock>
+                                ItemsControl_ ControlTemplate
+                            </TextBlock>
+                        </Grid>
+                    </ControlTemplate>
+                </ItemsControl.Template>
+            </ItemsControl>
         </Grid>
     </Grid>
  
